@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+.warning-text {
+  color: orange;
+  font-weight: 900;
+}
+
+.danger-text {
+  color: red;
+  font-weight: 900;
+}
+
+.paragraph-success, .advice-success,
+.paragraph-alert,
+.paragraph-danger,
+.advice-danger {
+  padding: 10px 25px;
+  border-radius: 10px;
+  background: #fdf7e4;
+  font-size: 14px;
+  line-height: 24px;
+  border: 1px solid #ffc300;
+  color: #000;
+  align-items: center;
+}
+.paragraph-success > svg, .advice-success > svg,
+.paragraph-alert > svg,
+.paragraph-danger > svg,
+.advice-danger > svg {
+  margin-right: 5px;
+}
+
+.paragraph-danger, .advice-danger {
+  background: #ffe3e3;
+  border: 1px solid red;
+}
+
+.paragraph-success, .advice-success {
+  background: #e4fde6;
+  border: 1px solid #96ff94;
+}
+
+.advice-box {
+  border-radius: 5px;
+  padding: 15px 25px;
+  margin: 10px 0;
+}
+.advice-box > h3 {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 7.5px;
+}
+.advice-box > div {
+  font-size: 13.5px;
+}
+
+.advice-warning {
+  background: #fdf7e4;
+  border: 1px solid #ffc300;
+}
+
+.dropShadow, .confirm-btn > button, .confirm-btn {
+  box-shadow: 0 10px 20px #d5ffc5;
+}
+
+.dropShadowGray {
+  box-shadow: 0 2px 2px #ebe9eb;
+}
+
+.buttonGreen, .confirm-btn > button {
+  color: #fff;
+  background: linear-gradient(45deg, #aac91d, #cde463);
+}
+
+input[type=radio] {
+  position: relative;
+}
+input[type=radio]::before {
+  content: "";
+  position: absolute;
+  left: -3px;
+  top: -2px;
+  background: rgb(235, 235, 235);
+  width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  border: 1px solid #c8c8c8;
+}
+
+input[type=radio]:checked::before {
+  content: "";
+  position: absolute;
+  background: rgb(170, 201, 29);
+}
+
+.confirm-btn {
+  padding-bottom: 40px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  background: #aac91d;
+  color: #fff;
+  border: 0;
+  margin: 15px 0;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.confirm-btn:disabled {
+  opacity: 0.5;
+}
+.confirm-btn:active {
+  box-shadow: 0 0 0;
+}
+.confirm-btn > button {
+  padding: 15px 25px;
+  border-radius: 15px;
+  border: 0;
+  cursor: pointer;
+}
+.confirm-btn > span {
+  display: inline-block;
+}
+
+.input-simple {
+  margin: 20px 0;
+  width: 100%;
+}
+.input-simple > label {
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: block;
+}
+.input-simple > input,
+.input-simple > textarea,
+.input-simple > select {
+  width: 100%;
+  padding: 17px;
+  border: 0;
+  border: 1px solid #bfbfbf;
+  border-radius: 10px;
+  background: #fff;
+  color: #000;
+}
+.input-simple > div > span {
+  padding: 10px;
+}
+.input-simple > textarea {
+  height: 140px;
+  resize: none;
+  line-height: 21px;
+}
+.input-simple > span {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 5px 0 0 0;
+  display: block;
+  text-align: right;
+}
+
+.input-group {
+  margin: 30px 0 15px 0;
+}
+.input-group > label {
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: block;
+}
+.input-group > div {
+  display: flex;
+  border: 1px solid #bfbfbf;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.input-group > div > span {
+  background: #ebe9eb;
+  padding: 15px;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+.input-group > div > input {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  background: #fff;
+  color: #000;
+}
+.input-group > div > button {
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  background: #cbcbcb;
+  color: #000;
+}/*# sourceMappingURL=common.css.map */
